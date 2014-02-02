@@ -1,0 +1,94 @@
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+I am in e channel and I accept TreesEle_die_TTBar_RW.root as signal
+ : 1458.73 + 0 = 1458.73
+9 ---- signal
+ : 0 + 0 = 0
+11 ---- signal
+ : 0 + 785.025 = 785.025
+13 ---- signal
+I am in e channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+ : 11726.9 + 35.2288 = 11762.2
+15 ---- signal
+I am in e channel and I accept TreesEle_etau_TTBar_RW.root as signal
+ : 3854.33 + 82.0373 = 3936.37
+17 ---- signal
+I am in e channel and I accept TreesEle_mue_TTBar_RW.root as signal
+ : 1179.23 + 3.50463 = 1182.73
+19 ---- signal
+ : 0 + 0.976081 = 0.976081
+21 ---- signal
+ : 0 + 51.4587 = 51.4587
+23 ---- signal
+ : 84.6837 + 4.35169 = 89.0354
+25 ---- signal
+ : 177.892 + 9.22718 = 187.119
+27 ---- signal
+ : 1478.56 + 74.1383 = 1552.7
+29 ---- signal
+ : 858.085 + 92.5255 = 950.61
+31 ---- signal
+ : 2646.04 + 124.698 = 2770.74
+33 ---- signal
+ : 864.737 + 100.908 = 965.645
+35 ---- bkg
+bkg
+TreesEle_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+TreesEle_WTemplateDefFormat_plots.root	0x24eb650
+39 ---- data
+data
+0x24e42c0
+0x24dd3b0	0x24e42c0	0x24eb650	0
+TH1.Print Name  = Default_allWcosTheta, Entries= 40297, Total sum= 40297
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 1364.08 bkg: 6250.97
+bkg: 7615.05 data: 40297 signal: 24329.2
+------------- Befor fit for file info: 
+TreesEle_SChannel_RW.root	187.119
+TreesEle_SbarChannel_RW.root	89.0354
+TreesEle_TChannel_RW.root	2770.74
+TreesEle_TWChannel_RW.root	965.645
+TreesEle_TbarChannel_RW.root	1552.7
+TreesEle_TbarWChannel_RW.root	950.61
+TreesEle_die_TTBar_RW.root	1458.73
+TreesEle_dimu_TTBar_RW.root	0
+TreesEle_disemitau_TTBar_RW.root	785.025
+TreesEle_ehad_TTBar_RW.root	11762.2
+TreesEle_etau_TTBar_RW.root	3936.37
+TreesEle_mue_TTBar_RW.root	1182.73
+TreesEle_muhad_TTBar_RW.root	0.976081
+TreesEle_mutau_TTBar_RW.root	51.4587
+------ For signal we have: 
+------ tchannel: 4323.43
+------ tWchannel: 1916.26
+------ schannel: 276.154
+------ tt: 19177.4
+------ For non WJets bkg we have: 
+------ Bkg: 6250.97
+------------- Befor fit end file info: 
+I am in bias Likelihood
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.736869	+/-	0.0948992
+f_            : 0.31586	+/-	0.0503282
+reg_gen factor: 0.894905	+/-	0.0141184
+n_{W+jets}    : 10976.7	+/-	0
+fr            : -0.052729	+/-	0.0528398
+Df0 Syst       : 0.769082
+DfL Syst       : 0.301394
+Df0            : -0.0109177
+DfL            : 0.0613938
+ErrF0          : 0.49002
+ErrFL          : 0.171223
+f0-f_ correlation: -0.915676

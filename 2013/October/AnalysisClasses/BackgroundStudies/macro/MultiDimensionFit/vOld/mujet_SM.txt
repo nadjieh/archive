@@ -1,0 +1,71 @@
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+ : 0 + 0 = 0
+9 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 1384.97 + 0 = 1384.97
+11 ---- signal
+ : 0 + 461.734 = 461.734
+13 ---- signal
+ : 0 + 0.182735 = 0.182735
+15 ---- signal
+ : 0 + 65.0816 = 65.0816
+17 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 1815.26 + 0 = 1815.26
+19 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 16877.7 + 0.186448 = 16877.9
+21 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 4781.09 + 50.2742 = 4831.36
+23 ---- signal
+ : 148.535 + 3.64485 = 152.18
+25 ---- signal
+ : 300.954 + 7.30499 = 308.259
+27 ---- signal
+ : 2714.5 + 67.8793 = 2782.38
+29 ---- signal
+ : 1381.12 + 68.8204 = 1449.94
+31 ---- signal
+ : 4773.39 + 110.262 = 4883.65
+33 ---- signal
+ : 1374.12 + 58.2028 = 1432.32
+35 ---- bkg
+bkg
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_plots.root	0x5a94360
+39 ---- data
+data
+0x6361f70
+0x635fb30	0x6361f70	0x5a94360	0
+TH1.Print Name  = Default_allWcosTheta, Entries= 58439, Total sum= 58439
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 893.573 bkg: 4171.72
+bkg: 5065.29 data: 58439 signal: 35551.7
+I am in bias Likelihood
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.723262	+/-	0.0531669
+f_            : 0.319755	+/-	0.0335367
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 18289.2	+/-	483.846
+fr            : -0.0430174	+/-	0.0262257
+Df0 Syst       : 0.755475
+DfL Syst       : 0.305289
+Df0            : -0.0245249
+DfL            : 0.0652893
+ErrF0          : 0.274532
+ErrFL          : 0.114096
+f0-f_ correlation: -0.91519

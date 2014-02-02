@@ -1,0 +1,60 @@
+1 ---- channel
+3 ---- is2Drecgen
+is2Drecgen
+5 ---- signal
+I am in e channel and I accept TreesEle_die_TTBar_RW.root as signal
+7 ---- signal
+ : 0 + 0 = 0
+9 ---- signal
+ : 0 + 780.58 = 780.58
+11 ---- signal
+I am in e channel and I accept TreesEle_ehad_TTBar_RW.root as signal
+13 ---- signal
+I am in e channel and I accept TreesEle_etau_TTBar_RW.root as signal
+15 ---- signal
+I am in e channel and I accept TreesEle_mue_TTBar_RW.root as signal
+17 ---- signal
+ : 0 + 0.970555 = 0.970555
+19 ---- signal
+ : 0 + 51.1673 = 51.1673
+21 ---- signal
+ : 84.2042 + 4.32705 = 88.5313
+23 ---- signal
+ : 176.884 + 9.17493 = 186.059
+25 ---- signal
+ : 1503.01 + 75.3645 = 1578.38
+27 ---- signal
+ : 853.226 + 92.0016 = 945.228
+29 ---- signal
+ : 2689.81 + 126.761 = 2816.57
+31 ---- signal
+ : 859.841 + 100.337 = 960.178
+33 ---- bkg
+bkg
+TreesEle_bkg_RW.root	myQCD: 0
+here ..
+35 ---- wtemplate
+w template
+TreesEle_WTemplateDefFormat_plots.root	0x1206130
+37 ---- data
+data
+0x196c8d0
+0x1969a40	0x196c8d0	0x1206130	0
+TH1.Print Name  = Default_allWcosTheta, Entries= 40297, Total sum= 40297
+In Generalized fit: 
+	size of signal is 14
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.647927	+/-	0.0895101
+f_            : 0.272388	+/-	0.059915
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 10877.6	+/-	538.953
+fr            : 0.0796847	+/-	0.0410246
+Df0 Syst       : 0.68014
+DfL Syst       : 0.257922
+Df0            : -0.0998597
+DfL            : 0.017922
+ErrF0          : 0.462193
+ErrFL          : 0.203838
+f0-f_ correlation: -0.924749
