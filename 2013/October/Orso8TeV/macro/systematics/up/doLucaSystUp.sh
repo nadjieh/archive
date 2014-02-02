@@ -1,0 +1,12 @@
+cd btag; source lucaOneDfit.sh; cd -;
+cd ctag; source lucaOneDfit.sh; cd -;
+cd JER; source lucaOneDfit.sh; cd -;
+cd JES; source lucaOneDfit.sh; cd -;
+cd lumi; source lucaOneDfit.sh; cd -;
+cd mass; source lucaOneDfit.sh; cd -;
+cd MET; source lucaOneDfit.sh; cd -;
+cd pu; source lucaOneDfit.sh; cd -;
+cd Q2; source lucaOneDfit.sh; cd -;
+cd tt; source lucaOneDfit.sh; cd -;
+cd ewknorm; source lucaOneDfit.sh; cd -;
+cd qcdnorm; source lucaOneDfit.sh; cd -;
