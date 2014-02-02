@@ -1,0 +1,61 @@
+1 ---- channel
+3 ---- is2Drecgen
+is2Drecgen
+5 ---- signal
+ : 0 + 0.0960309 = 0.0960309
+7 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+9 ---- signal
+ : 0 + 1065.61 = 1065.61
+11 ---- signal
+ : 0 + 0.185776 = 0.185776
+13 ---- signal
+ : 0 + 92.6796 = 92.6796
+15 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+17 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+19 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+21 ---- signal
+ : 111.75 + 6.09248 = 117.842
+23 ---- signal
+ : 235.345 + 12.7747 = 248.119
+25 ---- signal
+ : 1970.08 + 101.518 = 2071.6
+27 ---- signal
+ : 1106.2 + 103.177 = 1209.38
+29 ---- signal
+ : 3500.86 + 174.598 = 3675.45
+31 ---- signal
+ : 1098.67 + 109.002 = 1207.67
+33 ---- bkg
+bkg
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+35 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_plots.root	0x1b9c6a0
+37 ---- data
+data
+0x3c24fc0
+0x3c22600	0x3c24fc0	0x1b9c6a0	0
+In Generalized fit: 
+	size of signal is 14
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.523908	+/-	0.0723211
+f_            : 0.338408	+/-	0.0448879
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 13054.1	+/-	501.621
+fr            : 0.137684	+/-	0.035932
+Df0 Syst       : 0.556121
+DfL Syst       : 0.323942
+Df0            : -0.223879
+DfL            : 0.0839415
+ErrF0          : 0.373436
+ErrFL          : 0.152714
+f0-f_ correlation: -0.917056
+f0-NW correlation: -0.751737
+fl-NW correlation: 0.786273

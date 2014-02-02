@@ -1,0 +1,118 @@
+{
+//=========Macro generated from canvas: Canvas_1/Canvas_1
+//=========  (Sun Oct 27 11:06:49 2013) by ROOT version5.32/00
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",67,53,700,502);
+   Canvas_1->Range(-0.625,-1.575,0.625,14.175);
+   Canvas_1->SetFillColor(0);
+   Canvas_1->SetBorderMode(0);
+   Canvas_1->SetBorderSize(2);
+   Canvas_1->SetFrameBorderMode(0);
+   Canvas_1->SetFrameBorderMode(0);
+   
+   TH1D *dFR = new TH1D("dFR","dFR",40,-0.5,0.5);
+   dFR->SetBinContent(4,1);
+   dFR->SetBinContent(5,1);
+   dFR->SetBinContent(10,1);
+   dFR->SetBinContent(11,1);
+   dFR->SetBinContent(12,1);
+   dFR->SetBinContent(13,3);
+   dFR->SetBinContent(14,1);
+   dFR->SetBinContent(15,3);
+   dFR->SetBinContent(16,5);
+   dFR->SetBinContent(17,8);
+   dFR->SetBinContent(18,3);
+   dFR->SetBinContent(19,12);
+   dFR->SetBinContent(20,6);
+   dFR->SetBinContent(21,11);
+   dFR->SetBinContent(22,6);
+   dFR->SetBinContent(23,9);
+   dFR->SetBinContent(24,3);
+   dFR->SetBinContent(25,5);
+   dFR->SetBinContent(26,3);
+   dFR->SetBinContent(27,6);
+   dFR->SetBinContent(28,1);
+   dFR->SetBinContent(29,3);
+   dFR->SetBinContent(30,2);
+   dFR->SetBinContent(32,2);
+   dFR->SetBinContent(33,1);
+   dFR->SetBinContent(35,2);
+   dFR->SetEntries(100);
+   
+   TPaveStats *ptstats = new TPaveStats(0.7313218,0.6814346,0.9798851,0.9367089,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("dFR");
+   text->SetTextSize(0.02348523);
+   text = ptstats->AddText("Entries = 100    ");
+   text = ptstats->AddText("Mean  = 0.01393");
+   text = ptstats->AddText("RMS   = 0.1402");
+   text = ptstats->AddText("Underflow =      0");
+   text = ptstats->AddText("Overflow  =      0");
+   text = ptstats->AddText("#chi^{2} / ndf =  23.6 / 23");
+   text = ptstats->AddText("Constant = 6.246 ");
+   text = ptstats->AddText("Mean     = 0.01345 ");
+   text = ptstats->AddText("Sigma    = 0.1252 ");
+   ptstats->SetOptStat(111111);
+   ptstats->SetOptFit(101);
+   ptstats->Draw();
+   dFR->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(dFR);
+   
+   TF1 *PrevFitTMP = new TF1("PrevFitTMP","gaus",-0.5,0.5);
+   PrevFitTMP->SetFillColor(19);
+   PrevFitTMP->SetFillStyle(0);
+   PrevFitTMP->SetLineColor(2);
+   PrevFitTMP->SetLineWidth(2);
+   PrevFitTMP->SetChisquare(23.59918);
+   PrevFitTMP->SetNDF(23);
+   PrevFitTMP->GetXaxis()->SetLabelFont(42);
+   PrevFitTMP->GetXaxis()->SetLabelSize(0.035);
+   PrevFitTMP->GetXaxis()->SetTitleSize(0.035);
+   PrevFitTMP->GetXaxis()->SetTitleFont(42);
+   PrevFitTMP->GetYaxis()->SetLabelFont(42);
+   PrevFitTMP->GetYaxis()->SetLabelSize(0.035);
+   PrevFitTMP->GetYaxis()->SetTitleSize(0.035);
+   PrevFitTMP->GetYaxis()->SetTitleFont(42);
+   PrevFitTMP->SetParameter(0,6.24565);
+   PrevFitTMP->SetParError(0,1.130473);
+   PrevFitTMP->SetParLimits(0,0,0);
+   PrevFitTMP->SetParameter(1,0.01344876);
+   PrevFitTMP->SetParError(1,0.01595107);
+   PrevFitTMP->SetParLimits(1,0,0);
+   PrevFitTMP->SetParameter(2,0.125197);
+   PrevFitTMP->SetParError(2,0.02031099);
+   PrevFitTMP->SetParLimits(2,0,1.416537);
+   dFR->GetListOfFunctions()->Add(PrevFitTMP);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   dFR->SetLineColor(ci);
+   dFR->GetXaxis()->SetLabelFont(42);
+   dFR->GetXaxis()->SetLabelSize(0.035);
+   dFR->GetXaxis()->SetTitleSize(0.035);
+   dFR->GetXaxis()->SetTitleFont(42);
+   dFR->GetYaxis()->SetLabelFont(42);
+   dFR->GetYaxis()->SetLabelSize(0.035);
+   dFR->GetYaxis()->SetTitleSize(0.035);
+   dFR->GetYaxis()->SetTitleFont(42);
+   dFR->GetZaxis()->SetLabelFont(42);
+   dFR->GetZaxis()->SetLabelSize(0.035);
+   dFR->GetZaxis()->SetTitleSize(0.035);
+   dFR->GetZaxis()->SetTitleFont(42);
+   dFR->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.4562356,0.94,0.5437644,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("dFR");
+   pt->Draw();
+   Canvas_1->Modified();
+   Canvas_1->cd();
+   Canvas_1->SetSelected(Canvas_1);
+}

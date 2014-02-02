@@ -1,0 +1,56 @@
+1 ---- channel
+3 ---- signal
+ : 0 + 0.0960309 = 0.0960309
+5 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+7 ---- signal
+ : 0 + 1065.61 = 1065.61
+9 ---- signal
+ : 0 + 0.185776 = 0.185776
+11 ---- signal
+ : 0 + 92.6796 = 92.6796
+13 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+15 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+17 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+19 ---- signal
+ : 111.75 + 6.09248 = 117.842
+21 ---- signal
+ : 235.345 + 12.7747 = 248.119
+23 ---- signal
+ : 1970.08 + 101.518 = 2071.6
+25 ---- signal
+ : 1106.2 + 103.177 = 1209.38
+27 ---- signal
+ : 3500.86 + 174.598 = 3675.45
+29 ---- signal
+ : 1098.67 + 109.002 = 1207.67
+31 ---- bkg
+bkg
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+33 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_plots.root	0x15766a0
+35 ---- data
+data
+0x35fefc0
+0x35fc600	0x35fefc0	0x15766a0	0
+no rec_gen matrix fit
+Data: 47967	Signal: 32342	bkg: 3185.01
+f0            : 0.687977	+/-	0.0120282
+f_            : 0.294209	+/-	0.00872402
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 12611.7	+/-	307.766
+fr            : 0.0178137	+/-	0.00618907
+Df0 Syst       : 0.72019
+DfL Syst       : 0.279743
+Df0            : -0.0598098
+DfL            : 0.0397432
+ErrF0          : 0.0621087
+ErrFL          : 0.0296801
+f0-f_ correlation: -0.869506
+f0-NW correlation: 0.0328826
+fl-NW correlation: -0.0543225

@@ -1,0 +1,225 @@
+./TestMDFitTrue do3D yes channel mu is2Drecgen yes  signal TreesMu_die_TTBar_RW.root signal TreesMu_dimu_TTBar_RW.root signal TreesMu_disemitau_TTBar_RW.root signal TreesMu_ehad_TTBar_RW.root signal TreesMu_etau_TTBar_RW.root signal TreesMu_mue_TTBar_RW.root signal TreesMu_muhad_TTBar_RW.root signal TreesMu_mutau_TTBar_RW.root signal TreesMu_SbarChannel_RW.root signal TreesMu_SChannel_RW.root signal TreesMu_TbarChannel_RW.root signal TreesMu_TbarWChannel_RW.root signal TreesMu_TChannel_RW.root signal TreesMu_TWChannel_RW.root bkg TreesMu_bkg_RW.root wtemplate TreesMu_WTemplateDefFormat_plots.root data pData2.root
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+ : 0 + 0 = 0
+9 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 358.345 + 0 = 358.345
+11 ---- signal
+ : 0 + 322.805 = 322.805
+13 ---- signal
+ : 0 + 0.176461 = 0.176461
+15 ---- signal
+ : 0 + 24.4538 = 24.4538
+17 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 471.453 + 0 = 471.453
+19 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 9425.53 + 0 = 9425.53
+21 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 1314.38 + 21.0681 = 1335.45
+23 ---- signal
+ : 83.8442 + 2.95194 = 86.7961
+25 ---- signal
+ : 170.621 + 5.86765 = 176.489
+27 ---- signal
+ : 1601 + 56.7551 = 1657.76
+29 ---- signal
+ : 697.498 + 38.108 = 735.606
+31 ---- signal
+ : 2787.11 + 91.9153 = 2879.02
+33 ---- signal
+ : 729.823 + 28.234 = 758.057
+35 ---- bkg
+bkg
+2684.58
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_plots.root	0x1f43a80
+39 ---- data
+data
+Warning in <TClass::TClass>: no dictionary for class TPaveStats is available
+Warning in <TClass::TClass>: no dictionary for class TPaveText is available
+Warning in <TClass::TClass>: no dictionary for class TPave is available
+Warning in <TClass::TClass>: no dictionary for class TBox is available
+Warning in <TClass::TClass>: no dictionary for class TLatex is available
+Warning in <TClass::TClass>: no dictionary for class TText is available
+Error in <TBufferFile::ReadObject>: trying to read an emulated class (TPaveStats) to store in a compiled pointer (TObject)
+0x5108ac0
+0x50f9f00	0x5108ac0	0x1f43a80	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 592.335 bkg: 2684.58
+bkg: 3276.91 data: 32332.9 signal: 17639.6
+TreesMu_SChannel_RW.root	176.489
+TreesMu_SbarChannel_RW.root	86.7961
+TreesMu_TChannel_RW.root	2879.02
+TreesMu_TWChannel_RW.root	758.057
+TreesMu_TbarChannel_RW.root	1657.76
+TreesMu_TbarWChannel_RW.root	735.606
+TreesMu_die_TTBar_RW.root	0
+TreesMu_dimu_TTBar_RW.root	358.345
+TreesMu_disemitau_TTBar_RW.root	322.805
+TreesMu_ehad_TTBar_RW.root	0.176461
+TreesMu_etau_TTBar_RW.root	24.4538
+TreesMu_mue_TTBar_RW.root	471.453
+TreesMu_muhad_TTBar_RW.root	9425.53
+TreesMu_mutau_TTBar_RW.root	1335.45
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.701068	+/-	0.0587821
+f_            : 0.301174	+/-	0.0366522
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 11419.1	+/-	290.942
+fr            : -0.00224168	+/-	0.0308476
+Df0 Syst       : 0.733281
+DfL Syst       : 0.286708
+Df0            : -0.0467195
+DfL            : 0.0467082
+ErrF0          : 0.303526
+ErrFL          : 0.124695
+f0-f_ correlation: -0.89282
+f0-NW correlation: -0.327894
+fl-NW correlation: 0.462035
+[1]+  Killed                  gedit erun.sh  (wd: ~/work/Orso8TeV/macro)
+(wd now: ~/work/AnalysisClasses/BackgroundStudies/macro/MultiDimensionFit/realSol)
+nadjieh@GolKhatoon:~/work/AnalysisClasses/BackgroundStudies/macro/MultiDimensionFit/realSol$ ./TestMDFitTrue do3D yes channel mu is2Drecgen yes  signal TreesMu_die_TTBar_RW.root signal TreesMu_dimu_TTBar_RW.root signal TreesMu_disemitau_TTBar_RW.root signal TreesMu_ehad_TTBar_RW.root signal TreesMu_etau_TTBar_RW.root signal TreesMu_mue_TTBar_RW.root signal TreesMu_muhad_TTBar_RW.root signal TreesMu_mutau_TTBar_RW.root signal TreesMu_SbarChannel_RW.root signal TreesMu_SChannel_RW.root signal TreesMu_TbarChannel_RW.root signal TreesMu_TbarWChannel_RW.root signal TreesMu_TChannel_RW.root signal TreesMu_TWChannel_RW.root bkg TreesMu_bkg_RW.root wtemplate TreesMu_WTemplateDefFormat_plots.root data pData2.root
+TestMDFitTrue          TestMDFitTrueMuWfixed  
+nadjieh@GolKhatoon:~/work/AnalysisClasses/BackgroundStudies/macro/MultiDimensionFit/realSol$ ./TestMDFitTrueMuWfixed do3D yes channel mu is2Drecgen yes  signal TreesMu_die_TTBar_RW.root signal TreesMu_dimu_TTBar_RW.root signal TreesMu_disemitau_TTBar_RW.root signal TreesMu_ehad_TTBar_RW.root signal TreesMu_etau_TTBar_RW.root signal TreesMu_mue_TTBar_RW.root signal TreesMu_muhad_TTBar_RW.root signal TreesMu_mutau_TTBar_RW.root signal TreesMu_SbarChannel_RW.root signal TreesMu_SChannel_RW.root signal TreesMu_TbarChannel_RW.root signal TreesMu_TbarWChannel_RW.root signal TreesMu_TChannel_RW.root signal TreesMu_TWChannel_RW.root bkg TreesMu_bkg_RW.root wtemplate TreesMu_WTemplateDefFormat_plots.root data pData2.root
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+ : 0 + 0 = 0
+9 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 358.345 + 0 = 358.345
+11 ---- signal
+ : 0 + 322.805 = 322.805
+13 ---- signal
+ : 0 + 0.176461 = 0.176461
+15 ---- signal
+ : 0 + 24.4538 = 24.4538
+17 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 471.453 + 0 = 471.453
+19 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 9425.53 + 0 = 9425.53
+21 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 1314.38 + 21.0681 = 1335.45
+23 ---- signal
+ : 83.8442 + 2.95194 = 86.7961
+25 ---- signal
+ : 170.621 + 5.86765 = 176.489
+27 ---- signal
+ : 1601 + 56.7551 = 1657.76
+29 ---- signal
+ : 697.498 + 38.108 = 735.606
+31 ---- signal
+ : 2787.11 + 91.9153 = 2879.02
+33 ---- signal
+ : 729.823 + 28.234 = 758.057
+35 ---- bkg
+bkg
+2684.58
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_plots.root	0x1513a80
+39 ---- data
+data
+Warning in <TClass::TClass>: no dictionary for class TPaveStats is available
+Warning in <TClass::TClass>: no dictionary for class TPaveText is available
+Warning in <TClass::TClass>: no dictionary for class TPave is available
+Warning in <TClass::TClass>: no dictionary for class TBox is available
+Warning in <TClass::TClass>: no dictionary for class TLatex is available
+Warning in <TClass::TClass>: no dictionary for class TText is available
+Error in <TBufferFile::ReadObject>: trying to read an emulated class (TPaveStats) to store in a compiled pointer (TObject)
+0x46d8ac0
+0x46c9f00	0x46d8ac0	0x1513a80	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 592.335 bkg: 2684.58
+bkg: 3276.91 data: 32332.9 signal: 17639.6
+TreesMu_SChannel_RW.root	176.489
+TreesMu_SbarChannel_RW.root	86.7961
+TreesMu_TChannel_RW.root	2879.02
+TreesMu_TWChannel_RW.root	758.057
+TreesMu_TbarChannel_RW.root	1657.76
+TreesMu_TbarWChannel_RW.root	735.606
+TreesMu_die_TTBar_RW.root	0
+TreesMu_dimu_TTBar_RW.root	358.345
+TreesMu_disemitau_TTBar_RW.root	322.805
+TreesMu_ehad_TTBar_RW.root	0.176461
+TreesMu_etau_TTBar_RW.root	24.4538
+TreesMu_mue_TTBar_RW.root	471.453
+TreesMu_muhad_TTBar_RW.root	9425.53
+TreesMu_mutau_TTBar_RW.root	1335.45
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH3D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2D::Sumw2>: Sum of squares of weights structure already created
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.700993	+/-	0.0620393
+f_            : 0.301167	+/-	0.0367897
+reg_gen factor: 1.00016	+/-	0.0161637
+n_{W+jets}    : 11416	+/-	0
+fr            : -0.00216057	+/-	0.0324764
+Df0 Syst       : 0.733206
+DfL Syst       : 0.286701
+Df0            : -0.0467939
+DfL            : 0.0467015
+ErrF0          : 0.320345
+ErrFL          : 0.125163
+f0-f_ correlation: -0.908612
+f0-NW correlation: 0
+fl-NW correlation: 0
+

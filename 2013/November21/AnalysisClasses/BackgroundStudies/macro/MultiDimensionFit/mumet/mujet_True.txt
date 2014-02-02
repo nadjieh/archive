@@ -1,0 +1,93 @@
+1 ---- do3D
+do3D
+3 ---- channel
+5 ---- is2Drecgen
+is2Drecgen
+7 ---- signal
+ : 0 + 0.0960309 = 0.0960309
+9 ---- signal
+I am in mu channel and I accept TreesMu_dimu_TTBar_RW.root as signal
+ : 465.919 + 0 = 465.919
+11 ---- signal
+ : 0 + 950.579 = 950.579
+13 ---- signal
+ : 0 + 0.185776 = 0.185776
+15 ---- signal
+ : 0 + 54.3254 = 54.3254
+17 ---- signal
+I am in mu channel and I accept TreesMu_mue_TTBar_RW.root as signal
+ : 607.56 + 0 = 607.56
+19 ---- signal
+I am in mu channel and I accept TreesMu_muhad_TTBar_RW.root as signal
+ : 8836.26 + 0 = 8836.26
+21 ---- signal
+I am in mu channel and I accept TreesMu_mutau_TTBar_RW.root as signal
+ : 1558 + 44.1472 = 1602.15
+23 ---- signal
+ : 62.1617 + 5.63324 = 67.7949
+25 ---- signal
+ : 134.741 + 11.8024 = 146.544
+27 ---- signal
+ : 1089.37 + 92.6452 = 1182.02
+29 ---- signal
+ : 605.234 + 77.607 = 682.841
+31 ---- signal
+ : 1924.88 + 159.332 = 2084.22
+33 ---- signal
+ : 622.697 + 84.315 = 707.011
+35 ---- bkg
+bkg
+TreesMu_bkg_RW.root	myQCD: 0
+here ..
+37 ---- wtemplate
+w template
+TreesMu_WTemplateDefFormat_plots.root	0x4e37aa0
+39 ---- data
+data
+0x13958b0
+0x4e29310	0x13958b0	0x4e37aa0	0
+In Bias fit: 
+	size of 2D signal is 10
+	size of 3D signal is 4
+bkginsignal: 1480.67 bkg: 2379.07
+bkg: 3768.78 data: 26772 signal: 15906.8
+TreesMu_SChannel_RW.root	146.544
+TreesMu_SbarChannel_RW.root	67.7949
+TreesMu_TChannel_RW.root	2084.22
+TreesMu_TWChannel_RW.root	707.011
+TreesMu_TbarChannel_RW.root	1182.02
+TreesMu_TbarWChannel_RW.root	682.841
+TreesMu_die_TTBar_RW.root	0.0960309
+TreesMu_dimu_TTBar_RW.root	465.919
+TreesMu_disemitau_TTBar_RW.root	950.579
+TreesMu_ehad_TTBar_RW.root	0.185776
+TreesMu_etau_TTBar_RW.root	54.3254
+TreesMu_mue_TTBar_RW.root	607.56
+TreesMu_muhad_TTBar_RW.root	8836.26
+TreesMu_mutau_TTBar_RW.root	1602.15
+------ For signal we have: 
+------ tchannel: 0
+------ tWchannel: 0
+------ schannel: 0
+------ tt: 17387.5
+------ For non WJets bkg we have: 
+------ Bkg: 2379.07
+------------- Befor fit end file info: 
+before get minimum simple: 
+bkg bins: 10
+w bins: 10
+data bins: 10
+f0            : 0.563329	+/-	0.0883781
+f_            : 0.267427	+/-	0.043375
+reg_gen factor: 1	+/-	0
+n_{W+jets}    : 7671.69	+/-	316.154
+fr            : 0.169244	+/-	0.0555359
+Df0 Syst       : 0.595542
+DfL Syst       : 0.252961
+Df0            : -0.184458
+DfL            : 0.0129607
+ErrF0          : 0.456347
+ErrFL          : 0.147567
+f0-f_ correlation: -0.861877
+f0-NW correlation: -0.671313
+fl-NW correlation: 0.5094
