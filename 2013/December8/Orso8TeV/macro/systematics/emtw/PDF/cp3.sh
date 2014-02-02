@@ -1,0 +1,14 @@
+cd ele27/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele28/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele29/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele30/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele31/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele32/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele33/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele34/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele35/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele36/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele37/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele38/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele39/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -
+cd ele40/; source eOneDfit_qcdfree.sh; source OneDfit_qcdfree.sh; cd -

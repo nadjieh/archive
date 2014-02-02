@@ -1,0 +1,13 @@
+cd btag; source eweighter.sh; source muweighter.sh; cd -;
+cd ctag; source eweighter.sh; source muweighter.sh; cd -;
+cd JER; source eweighter.sh; source muweighter.sh; cd -;
+cd JES; source eweighter.sh; source muweighter.sh; cd -;
+cd lumi; source eweighter.sh; source muweighter.sh; cd -;
+cd mass; source eweighter.sh; source muweighter.sh; cd -;
+cd MET; source eweighter.sh; source muweighter.sh; cd -;
+cd pu; source eweighter.sh; source muweighter.sh; cd -;
+cd Q2; source eweighter.sh; source muweighter.sh; cd -;
+cd ewknorm; source eweighter.sh; source muweighter.sh; cd -;
+cd tt; source eweighter.sh; source muweighter.sh; cd -;
+cd qcdnorm; source eweighter.sh; source muweighter.sh; cd -;
+cd t; source eweighter.sh; source muweighter.sh; cd -;

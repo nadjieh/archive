@@ -1,0 +1,12 @@
+cd btag; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd ctag; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd ewknorm; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd JER; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd JES; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd lumi; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd mass; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd MET; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd pu; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd Q2; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd qcdnorm; cp OneDfit.sh lucaOneDfit.sh; cd -;
+cd tt; cp OneDfit.sh lucaOneDfit.sh; cd -;

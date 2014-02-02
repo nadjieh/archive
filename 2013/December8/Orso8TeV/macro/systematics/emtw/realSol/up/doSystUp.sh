@@ -1,0 +1,16 @@
+cd btag; source OneDfit.sh; cd -;
+cd ctag; source OneDfit.sh; cd -;
+cd JER; source OneDfit.sh; cd -;
+cd JES; source OneDfit.sh; cd -;
+cd lumi; source OneDfit.sh; cd -;
+cd mass; source OneDfit.sh; cd -;
+cd MET; source OneDfit.sh; cd -;
+cd pu; source OneDfit.sh; cd -;
+cd Q2; source OneDfit.sh; cd -;
+cd tt; source OneDfit.sh; cd -;
+cd t; source OneDfit.sh; cd -;
+cd ewknorm; source OneDfit.sh; cd -;
+cd qcdnorm; source OneDfit.sh; cd -;
+cd cwshape; source OneDfit.sh; cd -;
+cd bwshape; source OneDfit.sh; cd -;
+cd generator; source OneDfit.sh; cd -;

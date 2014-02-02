@@ -1,0 +1,16 @@
+cd btag; source eMGOneDfit.sh; cd -;
+cd ctag; source eMGOneDfit.sh; cd -;
+cd JER; source eMGOneDfit.sh; cd -;
+cd JES; source eMGOneDfit.sh; cd -;
+cd lumi; source eMGOneDfit.sh; cd -;
+cd mass; source eMGOneDfit.sh; cd -;
+cd MET; source eMGOneDfit.sh; cd -;
+cd pu; source eMGOneDfit.sh; cd -;
+cd Q2; source eMGOneDfit.sh; cd -;
+cd tt; source eMGOneDfit.sh; cd -;
+cd t; source eMGOneDfit.sh; cd -;
+cd ewknorm; source eMGOneDfit.sh; cd -;
+cd qcdnorm; source eMGOneDfit.sh; cd -;
+cd cwshape; source eMGOneDfit.sh; cd -;
+cd bwshape; source eMGOneDfit.sh; cd -;
+cd generator; source eMGOneDfit.sh; cd -;

@@ -1,0 +1,23 @@
+
+ln -s ../TreesEle_bkgWithWTemp_RW.root
+
+ln -s ../TreesEle_die_TTBar_RW.root
+ln -s ../TreesEle_dimu_TTBar_RW.root
+ln -s ../TreesEle_disemitau_TTBar_RW.root
+ln -s ../TreesEle_ehad_TTBar_RW.root
+ln -s ../TreesEle_etau_TTBar_RW.root
+ln -s ../TreesEle_mue_TTBar_RW.root
+ln -s ../TreesEle_muhad_TTBar_RW.root
+ln -s ../TreesEle_mutau_TTBar_RW.root
+
+ln -s ../TreesEle_SbarChannel_RW.root
+ln -s ../TreesEle_SChannel_RW.root
+ln -s ../TreesEle_comphep_RW.root
+ln -s ../TreesEle_TbarWChannel_RW.root
+
+ln -s ../TreesEle_TWChannel_RW.root
+
+ln -s ../TreesEle_WW_RW.root
+ln -s ../TreesEle_WZ_RW.root
+ln -s ../TreesEle_ZJets_RW.root
+ln -s ../TreesEle_ZZ_RW.root

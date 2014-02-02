@@ -1,0 +1,20 @@
+rm -f TreesMu_bDownbkgWithWTemp_RW.root
+hadd TreesMu_bDownbkgWithWTemp_RW.root TreesMu_ZZ_RW.root TreesMu_WZ_RW.root TreesMu_WW_RW.root TreesMu_ZJets_RW.root TreesMu_bDownWTemplateDefFormat_RW.root TreesMu_QCD_RW.root
+rm -f TreesMu_bUpbkgWithWTemp_RW.root
+hadd TreesMu_bUpbkgWithWTemp_RW.root TreesMu_ZZ_RW.root TreesMu_WZ_RW.root TreesMu_WW_RW.root TreesMu_ZJets_RW.root TreesMu_bUpWTemplateDefFormat_RW.root TreesMu_QCD_RW.root
+rm -f TreesMu_cUpbkgWithWTemp_RW.root
+hadd TreesMu_cUpbkgWithWTemp_RW.root TreesMu_ZZ_RW.root TreesMu_WZ_RW.root TreesMu_WW_RW.root TreesMu_ZJets_RW.root TreesMu_cUpWTemplateDefFormat_RW.root TreesMu_QCD_RW.root
+rm -f TreesMu_cDownbkgWithWTemp_RW.root
+hadd TreesMu_cDownbkgWithWTemp_RW.root TreesMu_ZZ_RW.root TreesMu_WZ_RW.root TreesMu_WW_RW.root TreesMu_ZJets_RW.root TreesMu_cDownWTemplateDefFormat_RW.root TreesMu_QCD_RW.root
+
+
+rm -f TreesEle_bDownbkgWithWTemp_RW.root
+hadd TreesEle_bDownbkgWithWTemp_RW.root TreesEle_ZZ_RW.root TreesEle_WZ_RW.root TreesEle_WW_RW.root TreesEle_ZJets_RW.root TreesEle_bDownWTemplateDefFormat_RW.root TreesEle_QCD_RW.root
+rm -f TreesEle_bUpbkgWithWTemp_RW.root
+hadd TreesEle_bUpbkgWithWTemp_RW.root TreesEle_ZZ_RW.root TreesEle_WZ_RW.root TreesEle_WW_RW.root TreesEle_ZJets_RW.root TreesEle_bUpWTemplateDefFormat_RW.root TreesEle_QCD_RW.root
+rm -f TreesEle_cUpbkgWithWTemp_RW.root
+hadd TreesEle_cUpbkgWithWTemp_RW.root TreesEle_ZZ_RW.root TreesEle_WZ_RW.root TreesEle_WW_RW.root TreesEle_ZJets_RW.root TreesEle_cUpWTemplateDefFormat_RW.root TreesEle_QCD_RW.root
+rm -f TreesEle_cDownbkgWithWTemp_RW.root
+hadd TreesEle_cDownbkgWithWTemp_RW.root TreesEle_ZZ_RW.root TreesEle_WZ_RW.root TreesEle_WW_RW.root TreesEle_ZJets_RW.root TreesEle_cDownWTemplateDefFormat_RW.root TreesEle_QCD_RW.root
+
+

@@ -1,0 +1,13 @@
+cd btag; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/btag/*WJets*.root . ; cd -;
+cd ctag; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/ctag/*WJets*.root . ; cd -;
+cd JER; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/JER/*WJets*.root . ; cd -;
+cd JES; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/JES/*WJets*.root . ; cd -;
+cd lumi; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/lumi/*WJets*.root . ; cd -;
+cd mass; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/mass/*WJets*.root . ; cd -;
+cd MET; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/MET/*WJets*.root . ; cd -;
+cd pu; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/pu/*WJets*.root . ; cd -;
+cd Q2; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/Q2/*WJets*.root . ; cd -;
+cd tt; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/tt/*WJets*.root . ; cd -;
+cd t; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/t/*WJets*.root . ; cd -;
+cd qcdnorm; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/qcdnorm/*WJets*.root . ; cd -;
+cd ewknorm; ln -s ~/archive/2013/October/Orso8TeV/macro/systematics/up/ewknorm/*WJets*.root . ; cd -;

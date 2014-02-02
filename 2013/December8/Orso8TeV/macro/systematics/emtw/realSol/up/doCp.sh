@@ -1,0 +1,13 @@
+cd btag; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/btag/TreesMu_*RW.root .; cd -;
+cd ctag; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/ctag/TreesMu_*RW.root .; cd -;
+cd JER; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/JER/TreesMu_*RW.root .; cd -;
+cd JES; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/JES/TreesMu_*RW.root .; cd -;
+cd lumi; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/lumi/TreesMu_*RW.root .; cd -;
+cd mass; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/mass/TreesMu_*RW.root .; cd -;
+cd MET; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/MET/TreesMu_*RW.root .; cd -;
+cd pu; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/pu/TreesMu_*RW.root .; cd -;
+cd Q2; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/Q2/TreesMu_*RW.root .; cd -;
+cd tt; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/tt/TreesMu_*RW.root .; cd -;
+cd qcdnorm; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/qcdnorm/TreesMu_*RW.root .; cd -;
+cd ewknorm; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/ewknorm/TreesMu_*RW.root .; cd -;
+cd tt; cp /home/nadjieh/work/Orso8TeV/macro/systematics/realSol/up/t/TreesMu_*RW.root .; cd -;
